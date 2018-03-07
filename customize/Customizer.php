@@ -137,7 +137,7 @@ class Customizer
     protected function placeTemplates()
     {
         $fs = new Filesystem();
-        $fileSystem->mirror($this->working_dir . '/customize/templates', $this->working_dir);
+        $fs->mirror($this->working_dir . '/customize/templates', $this->working_dir);
     }
 
     protected function cleanupCustomization()

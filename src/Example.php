@@ -1,6 +1,6 @@
 <?php
 
-namespace ExampleProject;
+namespace AmazingTest;
 
 class Example
 {
